@@ -1,0 +1,296 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*----------------------header background--------------------*/
+#header{
+    width: 100%;
+    height: 100vh;
+    /*Change background to your irl face*/
+    background-image: url(images/apex\ background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+/*--------------slogan------------------*/
+.Slogan{
+    font-size: 7rem;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: inline-block;
+    position: relative;
+    margin-left: 55%;
+    margin-top: 6%;
+    color: #ffff;
+}
+
+/*----------------------About---------------------*/
+#About{
+    background-image: url(images/apex\ background\ white.jpg);
+    background-attachment: fixed;
+    padding: 80px 0;
+}
+
+.information_img{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-basis: 35%;
+    margin-left: 5%;
+}
+
+.information1{
+    color: #007fff;
+    font-size: 2rem;
+    font-family: "Anta", sans-serif;
+    font-weight: 100;
+    margin-right: 2%;
+    margin-top: 5%;
+    display: flex;
+
+}
+
+.information2_img img{
+    margin-left: 70%;
+    margin-top: 20%;
+}
+
+.information2{
+    color: #007fff;
+    font-size: 2rem;
+    font-family: "Anta", sans-serif;
+    font-weight: 100;
+    margin-top: -20%;
+    margin-left: 2%;
+}
+
+/*------------Play informationn----------------*/
+.play{
+    font-size: 4rem;
+    font-family: "Anta", sans-serif;
+    font-weight: 100;
+    justify-content: center;
+    margin-top: 25%;
+    margin-left: 8%;
+}
+
+.play p{
+    font-size: 2rem;
+    margin-left: 5.5%;
+    margin-top: 1.5%;
+}
+
+.play ul {
+    margin-top: 9%;
+    display: flex;
+    list-style: none;
+}
+
+.play ul li img {
+    width: 50%;
+}
+
+/*------------------Download-------------*/
+.download p{
+    font-family: "Anta", sans-serif;
+    position: relative;
+    margin-left: 24%;
+    margin-top: 15%;
+    font-size: 2.5rem;
+    color: #007fff;
+}
+
+.Apex_link{
+    font-family: "Anta", sans-serif;
+    margin-left: 37%;
+    margin-top: 4%;
+    text-transform: uppercase;
+    font-size: 2rem;
+    background-color: #00b4d8;
+    border: none;
+    padding: 20px 50px;
+    color: #ffff;
+    border-radius: 1rem;
+}
+
+/*------------Ipad response*-----------*/
+
+@media only screen and (max-width: 1400px ){
+
+    #header{
+        width: 100%;
+        height: 100vh;
+        /*Change background to your irl face*/
+        background-image: url(images/ipad\ responsive.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .Slogan{
+        font-size: 7.6rem;
+        font-family: "Anta", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: 10%;
+        margin-top: 55vh;
+        color: #ffff;
+    }
+
+    .information2_img img{
+        margin-left: 7%;
+        margin-top: 10%;
+    }
+
+    .information2{
+        color: #007fff;
+        font-size: 2rem;
+        font-family: "Anta", sans-serif;
+        font-weight: 100;
+        margin-top: 10%;
+        margin-left: 4%;
+    }
+
+    .play{
+        font-size: 4rem;
+        font-family: "Anta", sans-serif;
+        font-weight: 100;
+        justify-content: center;
+        margin-top: 25%;
+        margin-left: 8%;
+    }
+    
+    .play p{
+        font-size: 2rem;
+        margin-left: -1%;
+        margin-top: 1.5%;
+    }
+    
+    .play ul {
+        margin-top: 9%;
+        display: flex;
+        list-style: none;
+    }
+    
+    .play ul li img {
+        width: 50%;
+    }
+
+    .download p{
+        font-family: "Anta", sans-serif;
+        position: relative;
+        margin-left: 15%;
+        margin-top: 15%;
+        font-size: 2.5rem;
+        color: #007fff;
+    }
+
+    .Apex_link{
+        font-family: "Anta", sans-serif;
+        margin-left: 33%;
+        margin-top: 4%;
+        text-transform: uppercase;
+        font-size: 2rem;
+        background-color: #00b4d8;
+        border: none;
+        padding: 20px 50px;
+        color: #ffff;
+        border-radius: 1rem;
+    }
+}
+
+@media only screen and (max-width:460px ){
+
+    #header{
+        width: 100%;
+        height: 100vh;
+        /*Change background to your irl face*/
+        background-image: url(images/ipad\ responsive.png);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .Slogan{
+        font-size: 4rem;
+        font-family: "Anta", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        margin-left: 10%;
+        margin-top: 60vh;
+        color: #ffff;
+    }
+
+    .information_img img{
+        width: 40vh;
+        height: 40vh;
+    }
+    .information_img{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        flex-basis: 35%;
+        margin-left: 5%;
+    }
+
+    .information2_img img{
+        margin-left: 7%;
+        margin-top: 10%;
+        width: 40vh;
+        height: 50vh;
+    }
+
+    .information2{
+        color: #007fff;
+        font-size: 2rem;
+        font-family: "Anta", sans-serif;
+        font-weight: 100;
+        margin-top: 10%;
+        margin-left: 4%;
+    }
+
+    .play{
+        font-size: 4rem;
+        font-family: "Anta", sans-serif;
+        font-weight: 100;
+        justify-content: center;
+        margin-top: 25%;
+        margin-left: 8%;
+    }
+    
+    .play p{
+        font-size: 2rem;
+        margin-left: -1%;
+        margin-top: 1.5%;
+    }
+    
+    .play ul {
+        margin-top: 9%;
+        display: flex;
+        list-style: none;
+    }
+    
+    .play ul li img {
+        width: 50%;
+    }
+
+    .download p{
+        font-family: "Anta", sans-serif;
+        position: relative;
+        margin-left: 10%;
+        margin-top: 15%;
+        font-size: 2.5rem;
+        color: #007fff;
+    }
+
+    .Apex_link{
+        font-family: "Anta", sans-serif;
+        margin-left: 6%;
+        margin-top: 4%;
+        text-transform: uppercase;
+        font-size: 2rem;
+        background-color: #00b4d8;
+        border: none;
+        padding: 20px 50px;
+        color: #ffff;
+        border-radius: 1rem;
+    }
+}
