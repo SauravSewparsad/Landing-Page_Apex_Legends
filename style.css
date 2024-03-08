@@ -196,9 +196,10 @@
         color: #ffff;
         border-radius: 1rem;
     }
-    
+
 }
 
+/*--------------mobile screens--------------------*/
 @media only screen and (max-width:460px ){
 
     #header{
